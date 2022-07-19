@@ -1,0 +1,9 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "todo-list-api": "apps/todo-list-api",
+    "todo-list-ui": "apps/todo-list-ui",
+    "todo-list-ui-e2e": "apps/todo-list-ui-e2e"
+  }
+}
