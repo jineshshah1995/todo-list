@@ -1,11 +1,7 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { map } from 'rxjs';
-
-interface Todo {
-  title: string;
-}
+import {Todo} from '../../../../../libs/utils/models/common.model';
 
 @Injectable({
   providedIn: 'root'

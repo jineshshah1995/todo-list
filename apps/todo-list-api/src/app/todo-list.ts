@@ -1,10 +1,7 @@
 import { Express } from 'express';
 import _ = require("lodash");
-interface Todo {
-  title: string;
-}
+import {Todo} from '../../../../libs/utils/models/common.model';
 
-// let todos: Todo[] = [{ title: 'Todo 1' }, { title: 'Todo 2' }];
 let todos: Todo[] = [];
 
 export function addTodoRoutes(app: Express) {

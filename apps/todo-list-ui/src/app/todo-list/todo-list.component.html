@@ -9,6 +9,6 @@
 </div>
     <div *ngFor="let item of todoList">
         <i class="fa fa-times" aria-hidden="true" (click)="removeItem(item)">
-            {{ item.title }}
+            {{ item.title | titlecase}}
         </i>
     </div>
